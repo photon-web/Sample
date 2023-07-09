@@ -1,0 +1,48 @@
+/*
+* {
+    margin: 0;
+    padding: 0;
+}
+
+min-width for
+    tablet: 768px;
+    laptop: 1024px;
+    PC: 1280px;
+
+body {
+    background-color: coral;
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: blueviolet;
+    }
+}*/
+
+body {
+    background-color: black;
+    padding: 5%;
+}
+
+.parent {
+    background-color: white;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.child {
+    background-color: darkorange;
+    width: 250px;
+    height: 200px;
+}
+
+.child2 {
+    background-color: blueviolet;
+    width: 200px;
+    height: 250px;
+}
